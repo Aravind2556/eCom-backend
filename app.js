@@ -7,7 +7,7 @@ require('dotenv').config()
 
 
 
-// const secretKey = 'AR_KEY'
+
 const port = process.env.PORT
 const secretKey = process.env.JWT_KEY
 const mongoDbURI = process.env.MONOGODB_URL
